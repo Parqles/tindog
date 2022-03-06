@@ -1,0 +1,165 @@
+#title {
+  background-color: #ff4c68;
+  position:relative;
+  z-index:1;
+}
+#testimonials {
+  padding: 0;
+  text-align: center;
+  background-color: #FF7979;
+  color: #fff;
+}
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 10% 0;
+}
+#features {
+  padding: 5% 10%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+#press {
+  padding: 3% 15%;
+  text-align: center;
+  background-color: #FF7979;
+}
+#pricing {
+  text-align: center;
+  padding: 4rem
+}
+#footer{
+  background-color:#343a40;
+  text-align:center;
+  color:#fff;
+  padding: 3% 0 1.5%;
+}
+h1 {
+  color: white;
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2, h3 {
+  font-family: "Montserrat";
+  font-size: 2rem
+}
+p {
+  font-family: "Ubuntu";
+  font-size: 1.2rem;
+}
+
+.container-fluid {
+  padding: 3% 15% 8%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 1rem;
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+}
+
+.dwn {
+  font-size: 1.5rem;
+  padding: 1rem 1.7rem;
+  margin-top: 2rem;
+  margin-right: 1rem;
+}
+
+.lastpar{
+  color: white;
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.pies {
+  text-align: center;
+}
+
+#ip6 {
+  position: absolute;
+  right: 6.5rem;
+  padding: 2rem;
+  z-index: -1;
+  width: 70%;
+  transform: rotate(25deg);
+}
+
+@media (max-width: 1028px){
+  #ip6 {
+    position: static;
+    transform: rotate(0deg);
+  }
+  #title{
+    text-align:center;
+  }
+}
+
+#iconbar {
+  text-align: center;
+}
+
+.icon {
+  color: #FF7979;
+  padding: 2rem;
+}
+
+.icon:hover {
+  color: #FF1C1C;
+}
+
+.carousel-item {
+  padding: 7% 15% 0;
+}
+
+.slides {
+  width: 18rem;
+  border-radius: 100%;
+  padding: 3rem;
+}
+
+.sponsor {
+  width: 15rem;
+  padding: 1rem;
+  padding-bottom: 0;
+}
+
+#carouselExampleIndicators {
+  text-align: center;
+}
+
+.card-title {
+  color: black;
+}
+
+.btn-primary {
+  background-color: #FF7979;
+  border-color: #FF7979;
+}
+
+.btn-primary:hover {
+  background-color: #FF1C1C;
+  border-color: #FF1C1C;
+}
+
+.socials{
+width: 2rem;
+position: relative;
+display:inline-block;
+}
+
+.socials-parent{
+  padding-bottom: 1rem;
+}
